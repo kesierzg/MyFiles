@@ -11,7 +11,6 @@
 
 -- ============================================================
 -- [0] CZYSZCZENIE - DROP jezeli tabele juz istnieja
---     (bezpieczne ponowne uruchomienie skryptu)
 -- ============================================================
 BEGIN EXECUTE IMMEDIATE 'DROP TABLE factSales CASCADE CONSTRAINTS'; EXCEPTION WHEN OTHERS THEN NULL; END;
 /
